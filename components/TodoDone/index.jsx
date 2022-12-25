@@ -42,7 +42,7 @@ export const TodoDone = () => {
       ) : (
         <center>
           {" "}
-          <p>Create new task !</p>{" "}
+          <p>Complete your task !</p>{" "}
         </center>
       )}
     </div>
