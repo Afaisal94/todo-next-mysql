@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseApiUrl = 'http://localhost:3000';
+let baseApiUrl = 'https://todolist-next-sqlite.vercel.app';
 
 const getTodos = async () => {
   const response = await axios.get(
