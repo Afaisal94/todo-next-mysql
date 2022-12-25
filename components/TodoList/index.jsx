@@ -30,11 +30,13 @@ export const TodoList = () => {
       {data.todos.length ? (
         <>
           {data.todos.map((item) => (
-            <TodoItem
-              id={item.id}
-              task={item.task}
-              isCompleted={item.isCompleted}
-            />
+            <div key={item.id}>
+              <TodoItem
+                id={item.id}
+                task={item.task}
+                isCompleted={item.isCompleted}
+              />
+            </div>
           ))}
         </>
       ) : (
